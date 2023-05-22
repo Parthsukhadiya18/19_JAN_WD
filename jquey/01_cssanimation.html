@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <button  id="css">css</button>
+    <button  id="ani">ANimation</button>
+
+        <h1 id="h1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit harum aspernatur perferendis, cumque quasi quibusdam, officiis aut esse nisi natus ad fuga quisquam consequuntur exercitationem magni alias culpa vero omnis nam sapiente dolore itaque, vel repellendus? Harum impedit nulla ducimus numquam. Architecto itae nobis voluptatum porro iste corporis earum voluptatibus?</h1>
+        <h6 id="h6">parth is good persone</h6>
+
+       
+      
+
+        <script>
+            $(document).ready( function(){
+                 $("#css").click(function(){
+                    console.log("hi");
+                    $("#h1").css({"color":"red"})
+                 })
+
+                 $("#ani").click(function(){
+                 $("#h6").animate({fontSize:"25px"})
+
+                 })
+            })
+        </script>
+</body>
+</html>

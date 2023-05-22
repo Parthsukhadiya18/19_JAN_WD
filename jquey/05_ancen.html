@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+</head>
+<style>
+    div , ul ,li{border: 1px solid rgb(19, 18, 18);
+    margin: 10px;
+    padding: 10px;}
+</style>
+<body>
+    <button type="button" class="parent">Parent</button>
+    <button type="button" class="parents">Parents</button>
+    <button type="button" class="parentu">Parentuntill</button>
+
+
+    <button type="button" class="c1">Child</button>
+    <button type="button" class="c2">Child</button>
+
+    <div class="ancestors">
+        <div style="width:500px;">great-grandparent
+            <ul>grandparent
+                <li> parent
+                    <span>span</span>
+                </li>
+            </ul>
+        </div>       
+    </div>
+    <script>
+         $(document).ready(function(){
+            $(".parent").click(function(){
+                $("").parent().css({border:"1px solid red"})
+            })
+            $(".parents").click(function(){
+                $("span").parents().css({border:"1px solid blue"})
+            })
+            $(".parentu").click(function(){
+                $("span").parentsUntil("ul").css({border:"1px solid green"})
+            })
+
+            $(".c1").click(function(){
+                $("div").children().css({border:"1px solid red"})
+            })
+            $(".c2").click(function(){
+                $("div").children("ul").css({border:"1px solid blue"})
+            })
+         })
+    </script>
+</body>
+</html>

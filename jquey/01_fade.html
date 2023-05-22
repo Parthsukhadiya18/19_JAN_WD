@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+</head>
+<body>
+   <button  id="fadeout">FadeOUT</button>
+   <button  id="fadein">FadeIN</button>
+   <button  id="fadetoggle">fadeToggle</button>
+   <button  id="fadeto">FadeTO</button>
+      
+
+        
+        <h2 id="h2">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, laboriosam sequi quasi 
+        </h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit harum aspernatur perferendis, voluptatibus?</p>
+
+        <script>
+
+            $(document).ready( function(){
+                         
+                $("#fadetoggle").click( function(){
+                    // document.write("hi")
+                    $("#h2").fadeToggle();
+                })
+                $("#fadeout").click( function(){
+                    // document.write("hi")
+                    $("#h2").fadeOut();
+                })
+
+                $("#fadein").click( function(){
+                    // document.write("hi")
+                    $("#h2").fadeIn();
+                })
+
+                $("#fadeto").click( function(){
+                    // document.write("hi")
+                    $("#h2").fadeTo(0,.3);
+                })
+
+            })
+        </script>
+</body>
+</html>
