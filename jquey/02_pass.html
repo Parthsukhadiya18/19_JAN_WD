@@ -8,24 +8,33 @@
     <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
 </head>
 <body>
-    <input type="password" name="" id="">
+    <input type="password" name="" id="input">
+
+    <button id="show">Show</button>
+    <button id="hide">hide</button>
+
     <button id="toggle">Toggle</button>
-    <!-- <button id="show">Toggle</button> -->
 
      <script>
         $("document").ready(function(){
 
           $("#toggle").click(function() {
+
             if($("input").attr("type")=="password"){
                 $("input").attr("type","text");
             }else{
-                $("input").attr("type","password");
+              $("input").attr("type","password");
+
             }
           })  
 
-        //   $("#show").click(function() {
-        //     $("input").attr("type","text");
-        //   })
+          $("#show").click(function() {
+            $("#input").attr("type","text")
+          })
+
+          $("#hide").click(function() {
+            $("#input").attr("type","password")
+          })
         })
      </script>
 
