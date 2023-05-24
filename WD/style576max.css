@@ -58,5 +58,57 @@
         padding: 1px 20px;
         font-size: 13px
     }
+
+    /* section1  */
+section {
+    background-color: yellow;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+.main .text{
+    width: 70%
+}
+.main .text h1{
+    font-size: 25px;
+     }
+
+.main .text h2{
+    font-size: 19px;
+}
+.main .text p{
+    font-size: 12px;
+    /* margin: 10px 50px 10px 0px; */
+    text-align: justify
+   
+}
+.main .text button{
+    font-size: 12px;
+    /* margin: 10px 50px 10px 0px; */
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 20px;
+    border: none;
+    color: aliceblue;
+    
+   
+}
+.main .text button:hover{
+    background-color: green;
+}
+
+
+.main .img{
+    /* width:40% */
+}
+.img img{
+    width: 250px;
+    /* animation: disc duration timing-function delay iteration-count direction fill-mode; */
+    animation: example 5s linear infinite ;
+
+}
     
     }

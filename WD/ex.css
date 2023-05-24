@@ -11,7 +11,7 @@ header{
     /* border: 2px solid red; */
     text-align:justify;
     justify-content: space-around;
-    background-color:transparent;
+    background-color:rgb(250, 235, 235);
 
     
 }
@@ -55,3 +55,73 @@ header .logo h1 span{
     padding: 1px 20px;
     font-size: 20px
 }
+
+/* section1  */
+section {
+    background-color: yellow;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    
+}
+.main .text{
+    width: 40%;
+}
+.main .text h1{
+    font-size: 55px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
+     }
+
+.main .text h2{
+    font-size: 50px;
+    font-weight: bolder;
+    font-style:  normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;
+    margin: 10px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
+    word-spacing: 1px;
+    /* line-height: 5px; */
+}
+.main .text p{
+    font-size: 18px;
+    /* margin: 10px 50px 10px 0px; */
+   
+}
+.main .text button{
+    font-size: 20px;
+    /* margin: 10px 50px 10px 0px; */
+    background-color: #f7783c;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    color: aliceblue;
+    
+   
+}
+.main .text button:hover{
+    background-color: green;
+}
+
+
+.main .img{
+    /* width:40% */
+}
+.img img{
+    width: 300px;
+    /* animation: disc duration timing-function delay iteration-count direction fill-mode; */
+    animation: example 5s linear infinite ;
+
+}
+@keyframes example {
+    from {
+        transform: rotate(0deg);
+    }
+    to { transform: rotate(360deg)}
+  }

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ancestors * {
+            display: block;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".parent").click(function () {
+                $("span").parent().css({"border": "2px solid red" });
+            })
+            $(".parents").click(function () {
+                $("span").parents().css({"border": "2px solid blue" });
+            })
+            $(".parentu").click(function () {
+                $("span").parentsUntil("ul").css({"border": "2px solid yellow" });
+            })
+        });
+    </script>
+</head>
+
+<body>
+    <button type="button" class="parent">Parent</button>
+    <button type="button" class="parents">Parents</button>
+    <button type="button" class="parentu">Parentuntill</button>
+
+    <div class="ancestors">
+        <div style="width:500px;">great-grandparent
+            <ul>grandparent
+                <li> parent<span>span</span></li>
+            </ul>
+        </div>       
+    </div>
+</body>
+
+</html>
