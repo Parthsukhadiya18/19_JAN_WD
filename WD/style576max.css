@@ -199,4 +199,39 @@ section {
      .section4 .img{
         width: 30%;
      }
+
+        /* section5 */
+        .font{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 20px 20px;
+            background-color: whitesmoke;
+            height: 100%;
+            border: 1px solid black;
+            
+         }
+         .font .apple{
+            margin: 30px 50px;
+            padding: 10px 10px;
+         }
+         .font .apple:hover{
+            /* background-color: #a8a776; */
+            box-shadow: 5px 5px 5px red;
+         }
+          .font .apple i{
+            font-size: 40px;
+          }
+          .font .apple span{
+            font-size: 28px;
+          
+            padding: 0px 20px;
+          }
+          .font .apple p{
+            font-size: 18px;
+            text-align: justify;
+            padding: 10px 0px 0px 50px;
+            line-height: 25px;
+        
+    
+    }
     }
