@@ -1,222 +1,237 @@
 @media(min-width:576px){
     
-/* body{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    background-color:green;
-
-} */
-/* header{
-    display: flex;
-    text-align:justify;
-    justify-content: space-around;
-    background-color:transparent;
-       
-} */
-header .logo {
-    margin:10px 0px 0px 0px ;
-    font-size: 25px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-}
-header .logo h1{
-    font-size: 25px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    /* border: 2px solid red; */
-
-}
-
-/* header .logo h1 span{
-   color: #f7783c;
-   font-size: 22px;
-   
-} */
- .menu ul{
-    display: flex;
-    list-style: none;
-    /* border: 2px solid red; */
-    margin-top:24px ;
-    justify-content: space-between;
-}
-
-.menu ul li{
-    /* text-decoration: none; */
-    margin-top: 10px;
-    height: 26px;
-
-}
-
-.menu ul li a{ 
-    text-decoration: none;
-    padding: 10px;
-    font-size: 13px;
-}
-
-.menu ul li i{ 
-    text-decoration: none;
-    padding: 1px 20px;
-    font-size: 13px
-}
-
-/* section1  */
-section {
-    background-color: yellow;
-}
-.main{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: space-around;
-}
-.main .text{
-    width: 40%;
-}
-.main .text h1{
-    font-size: 35px;
-     }
-
-.main .text h2{
-    font-size: 27px;
-}
-.main .text p{
-    font-size: 14px;
-    /* margin: 10px 50px 10px 0px; */
-    text-align: justify
-   
-}
-.main .text button{
-    font-size: 14px;
-    /* margin: 10px 50px 10px 0px; */
-    cursor: pointer;
-    padding: 5px;
-    border-radius: 20px;
-    border: none;
-    color: aliceblue;
+    /* body{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        background-color:green;
     
-   
-}
-.main .text button:hover{
-    background-color: green;
-}
-
-
-.main .img{
-    /* width:40% */
-}
-.img .disc{
-    width: 250px;
-    /* animation: disc duration timing-function delay iteration-count direction fill-mode; */
-    animation: example 5s linear infinite ;
-
-}
-
-    /* .section 3  */
-    .section3{
-        border: 2px solid red;
-        height: 100%;
-     }
-     .section3 h2{
-        font-size: 40px;
+    } */
+    /* header{
+        display: flex;
+        text-align:justify;
+        justify-content: space-around;
+        background-color:transparent;
+           
+    } */
+    header .logo {
+        margin:10px 0px 0px 0px ;
+        font-size: 25px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-weight: bolder;
-        text-align: center;
-     } 
-     .section3 span{
-        color: #f7783c;
-     }
+    
+    }
+    header .logo h1{
+        font-size: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        /* border: 2px solid red; */
+    
+    }
+    
+    /* header .logo h1 span{
+       color: #f7783c;
+       font-size: 22px;
+       
+    } */
+     .menu ul{
+        display: flex;
+        list-style: none;
+        /* border: 2px solid red; */
+        margin-top:24px ;
+        justify-content: space-between;
+    }
+    
+    .menu ul li{
+        /* text-decoration: none; */
+        margin-top: 10px;
+        height: 26px;
+    
+    }
+    
+    .menu ul li a{ 
+        text-decoration: none;
+        padding: 10px;
+        font-size: 13px;
+    }
+    
+    .menu ul li i{ 
+        text-decoration: none;
+        padding: 1px 20px;
+        font-size: 13px
+    }
+    
+    /* section1  */
+    section {
+        background-color: yellow;
+    }
+    .main{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .main .text{
+        width: 40%;
+    }
+    .main .text h1{
+        font-size: 35px;
+         }
+    
+    .main .text h2{
+        font-size: 27px;
+    }
+    .main .text p{
+        font-size: 14px;
+        /* margin: 10px 50px 10px 0px; */
+        text-align: justify
+       
+    }
+    .main .text button{
+        font-size: 14px;
+        /* margin: 10px 50px 10px 0px; */
+        cursor: pointer;
+        padding: 5px;
+        border-radius: 20px;
+        border: none;
+        color: aliceblue;
+        
+       
+    }
+    .main .text button:hover{
+        background-color: green;
+    }
+    
+    
+    
+    .img .disc{
+        width: 250px;
+        /* animation: disc duration timing-function delay iteration-count direction fill-mode; */
+        animation: example 5s linear infinite ;
+    
+    }
+    
+        /* .section 3  */
+        .section3{
+            border: 2px solid red;
+            height: 100%;
+         }
+         .section3 h2{
+            font-size: 40px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bolder;
+            text-align: center;
+         } 
+         .section3 span{
+            color: #f7783c;
+         }
+    
+         .section3 .salad{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: center;
+         }
+        
+         .section4{
+            display: flex;
+            flex-wrap:wrap;
+            width: 100%;
+            justify-content: center; 
+         animation: disc 2s ease infinite;
+    
+          }
+          .section4 .menu{
+            width: 60%;
+    
+          }
+          .section4 .menu h1{
+              font-size:50px;
+              text-align: left;
+              margin-left: 30px;
+    
+              font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          }
+          .section4 .menu span{
+           color:#f7783c ;
+        }
+    
+        .section4 .menu .text{
+            display:flex;
+            width: 100%;
+         }
+         .section4 .menu .text p{
+          margin: 10px;
+          padding: 20px 30px;
+          font-size: 18px;
+          text-align: justify;
+          font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+         }
+         .section4 .menu button{
+            padding: 15px;
+            border-radius: 25px;
+            font-size: 18px;
+            background-color: #f7783c;
+            color: antiquewhite;
+            border: none;
+            margin: 25px;
+         }
+    
+         .section4 .menu button:hover{
+            background-color:#87f786;
+    
+         }
+    
+    
+         .section4 .img{
+            width: 30%;
+         }
+          /* section5 */
+          .font{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 20px 20px;
+            background-color: whitesmoke;
+            height: 100%;
+            
+         }
+         .font .apple{
+            margin: 30px 50px;
+            padding: 10px 10px;
+         }
+         .font .apple:hover{
+            /* background-color: #a8a776; */
+            box-shadow: 5px 5px 5px red;
+         }
+          .font .apple i{
+            font-size: 40px;
+          }
+          .font .apple span{
+            font-size: 25px;
+            font-weight: bolder;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding: 0px 20px;
+          }
+          .font .apple p{
+            font-size: 20px;
+            padding: 10px 0px 0px 50px;
+            line-height: 25px;
 
-     .section3 .salad{
+    
+
+
+    } 
+       /* section6 */
+       .section6{
         display: flex;
         flex-wrap: wrap;
         width: 100%;
         justify-content: center;
-     }
+      }
+      .section6 .shef{
+        width: 50%;
+      }
+     
+     
+   
     
-     .section4{
-        display: flex;
-        flex-wrap:wrap;
-        width: 100%;
-        justify-content: center; 
-     animation: disc 2s ease infinite;
-
-      }
-      .section4 .menu{
-        width: 60%;
-
-      }
-      .section4 .menu h1{
-          font-size:50px;
-          text-align: left;
-          margin-left: 30px;
-
-          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      }
-      .section4 .menu span{
-       color:#f7783c ;
-    }
-
-    .section4 .menu .text{
-        display:flex;
-        width: 100%;
-     }
-     .section4 .menu .text p{
-      margin: 10px;
-      padding: 20px 30px;
-      font-size: 18px;
-      text-align: justify;
-      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
-     }
-     .section4 .menu button{
-        padding: 15px;
-        border-radius: 25px;
-        font-size: 18px;
-        background-color: #f7783c;
-        color: antiquewhite;
-        border: none;
-        margin: 25px;
-     }
-
-     .section4 .menu button:hover{
-        background-color:#87f786;
-
-     }
-
-
-     .section4 .img{
-        width: 30%;
-     }
-      /* section5 */
-      .font{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 20px 20px;
-        background-color: whitesmoke;
-        height: 100%;
-        border: 1px solid black;
-        
-     }
-     .font .apple{
-        margin: 30px 50px;
-        padding: 10px 10px;
-     }
-     .font .apple:hover{
-        /* background-color: #a8a776; */
-        box-shadow: 5px 5px 5px red;
-     }
-      .font .apple i{
-        font-size: 40px;
-      }
-      .font .apple span{
-        font-size: 25px;
-        font-weight: bolder;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        padding: 0px 20px;
-      }
-      .font .apple p{
-        font-size: 20px;
-        padding: 10px 0px 0px 50px;
-        line-height: 25px;
     
-
 }

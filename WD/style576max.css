@@ -207,7 +207,6 @@ section {
             gap: 20px 20px;
             background-color: whitesmoke;
             height: 100%;
-            border: 1px solid black;
             
          }
          .font .apple{
@@ -234,4 +233,36 @@ section {
         
     
     }
+
+         /* section6 */
+      .section6{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+      }
+      .section6 .shef{
+        width: 50%;
+      }
+      .section6 .shef h1{
+        font-size: 30px;
+     
+      }
+      
+      .section6 .shef p{
+        font-size: 14px;
+       
+      }
+      .section6 .shef button {
+        padding: 10px;
+        font-size: 16px;
+      }
+     
+      .section6 .img{
+        width: 40%;
+      }
+      .section6 .img img{
+        height: 350px;
+      }
+      
     }
