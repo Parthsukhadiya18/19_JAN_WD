@@ -47,7 +47,7 @@
           <h1>Sa <span class="fas fa-utensil-spoon"></span> ads</h1>
         </div>
         <div class="menu">
-          <ul>
+          <ul class="subMenu">
             <li><a href="">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="">Menu</a></li>
@@ -58,8 +58,27 @@
             <li><i class="fa-solid fa-moon"></i></li>
           </ul>
         </div>
+        <div class="btn">
+          <i class="fa-solid fa-bars" id="btn"></i>
+        </div>
       </nav>
     </header>
+
+
+    <script>
+      let btn = document.getElementById("btn");
+
+      let submenu = document.querySelector("ul");
+         btn.addEventListener("click", () => {
+          submenu.classList.toggle("top");
+          console.log("hi");       
+
+         })
+
+
+
+  
+    </script>
     <section>
       <div class="main">
         <div class="text">
@@ -394,15 +413,15 @@
         </div>
         <div>
           <h4>Contact</h4>
-          <div>
+          <div class="arrow">
             <i class="fa-solid fa-greater-than"></i>
             <span>Food, 10001, 5th Avenue, #06 lane street, NY - 62617.</span>
           </div>
-          <div>
+          <div class="arrow">
             <i class="fa-solid fa-greater-than"></i>
             <span>(0261) 12345.</span>
           </div>
-          <div>
+          <div class="arrow">
             <i class="fa-solid fa-greater-than"></i>
             <span>tOPS@GMAIL.COM</span>
           </div>
@@ -410,39 +429,39 @@
 
         <div>
           <h4>QUICK LINKS</h4>
-          <div>
+          <div class="arrow">
             <i class="fa-solid fa-greater-than"></i>
             <span>Home</span>
           </div>
-          <div>
+          <div class="arrow">
             <i class="fa-solid fa-greater-than"></i>
             <span>About</span>
           </div>
-          <div>
+          <div class="arrow">
             <i class="fa-solid fa-greater-than"></i>
             <span>Contact</span>
           </div>
-          <div>
+          <div class="arrow">
             <i class="fa-solid fa-greater-than"></i>
             <span>Servies</span>
           </div>
         </div>
         <div>
           <h4>HELP & SUPPORT</h4>
-          <div>
+          <div class="arrow">
             <i class="fa-solid fa-greater-than"></i>
             <span>LiveChat</span>
           </div>
 
-          <div>
+          <div class="arrow">
             <i class="fa-solid fa-greater-than"></i>
             <span>Faq's</span>
           </div>
-          <div>
+          <div class="arrow">
             <i class="fa-solid fa-greater-than"></i>
             <span>SUPPORT</span>
           </div>
-          <div>
+          <div class="arrow">
             <i class="fa-solid fa-greater-than"></i>
             <span>Team & use</span>
           </div>
